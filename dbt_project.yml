@@ -40,3 +40,7 @@ models:
     # Applies to all files under models/staging/
     staging:
       +materialized: view
+    standarized:
+      +materialized: view
+    reporting:
+      +materialized: view
